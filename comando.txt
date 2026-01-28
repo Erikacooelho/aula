@@ -1,11 +1,12 @@
 ... ao lado de acessar - terminal - novo termninal ,manter bash
- git --version 
- git init
- git config user.name Erika
-git config user.email erikacooelhoo1@hotmail.com
+ git --version  (versao)
+ git init (criar  um novo repositorio)
+ git config user.name Erika (nome do titular do projeto)
+git config user.email erikacooelhoo1@hotmail.com (mesmo e-mail do github)
 git branch -M main (para retirar o master )
 git config --global user.email erikacooelhoo1@hotmail.com ( e-mail p/ salvar todos os repositorios)
+git config --global user.name (git config --global user.name "Seu Nome")
 git status
-git add aula_git.txt
-git status
+git add .(salvar todos os codigos)
+git add aula_git.txt (add pastas)
 git commit -m "aula_git.txt" ( fica o registro do repositorio)
