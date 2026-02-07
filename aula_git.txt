@@ -13,3 +13,16 @@ git status
 git add .(salvar todos os codigos)
 git add aula_git.txt (add pastas)
 git commit -m "aula_git.txt" ( fica o registro do repositorio)
+
+Para adicionar novas informações (arquivos, pastas ou alterações) a um repositório que já existe no GitHub, o processo padrão é fazer um commit e push das alterações locais para o servidor remoto. 
+Abra o terminal na pasta do seu projeto local
+Adicionar as alterações:
+bash
+git add .
+(O ponto . adiciona todos os arquivos novos e alterados no diretório atual).
+Confirmar as alterações (Commit):
+bash
+git commit -m "Mensagem descrevendo o que você adicionou"
+Enviar para o GitHub (Push):
+bash
+git push origin main
