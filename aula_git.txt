@@ -26,3 +26,6 @@ git commit -m "Mensagem descrevendo o que você adicionou"
 Enviar para o GitHub (Push):
 bash
 git push origin main
+
+Para voltar para a branch main no Git, utilize o comando git checkout main ou git switch main. Se precisar descartar alterações locais e igualar com o servidor, use git fetch origin e git reset --hard origin/main. Para voltar à branch anterior rapidamente, use git checkout -
+
